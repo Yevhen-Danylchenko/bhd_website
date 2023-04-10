@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+:root{
+   --fontFamily:'Poppins';
+   --link: #000;
+}
+
+/* content header */
+
+.divHeader {
+   display: flex;
+
+   align-items: center;
+
+   width: 1440px;
+   height: 80px;
+
+   margin: 0 auto;
+}
+
+.headerUl {
+   display: flex;
+}
+
+.headerList {
+   list-style: none;
+}
+
+/* Перші дві ссилки */
+
+.headerLinkOne {
+   width: 93px;
+   height: 13px;
+
+   font-family: var(--fontFamily);
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 12.68px;
+   letter-spacing: 4%;
+
+   text-align: center;
+   text-decoration: none;
+
+   color: var(--link);
+
+   padding-right: 43px;
+}
+
+/* Другі три ссилки */
+
+.headerLinkTwo {
+   width: 80px;
+   height: 13px;
+
+   font-family: var(--fontFamily);
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 12.68px;
+   letter-spacing: 4%;
+
+   text-align: center;
+   text-decoration: none;
+
+   color: var(--link);
+
+   padding-right: 30px;
+}
