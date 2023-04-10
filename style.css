@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+:root{
+   --fontFamily:'Poppins';
+   --link: #000;
+   --titleColor: #000;
+   --titleColorSpan: #3c5ef0;
+   --textColorPar: #000;
+   --textColorParDiv: #ece9e5;
+   --backgroundColor: #e5e5e5;
+   --backgroundColorDiv: #3C5EF0;
+}
+
+.body {
+   background-color: var(--backgroundColor);
+}
+
+/* content header */
+
+.header{
+   background-color: var(--backgroundColor);
+}
+
+.divHeader {
+   display: flex;
+
+   align-items: center;
+
+   width: 1440px;
+   height: 80px;
+
+   margin: 0 auto;
+}
+
+.headerUl {
+   display: flex;
+
+   margin-left: 346px;
+}
+
+.headerList {
+   list-style: none;
+}
+
+/* Опис списку */
+
+.headerLi {
+   margin-right: 30px;
+}
+
+.headerLiTwo {
+   margin-right: 0px;
+}
+
+/* Опис параграфа Логотипу */
+
+.blue {
+   width: 209px;
+   height: 13px;
+
+   font-family: var(--fontFamily);
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 13.42px;
+   letter-spacing: 4%;
+
+   text-transform: uppercase;
+
+   color: var(--textColorPar);
+
+   margin-left: 75px;
+}
+
+/* Опис параграфа Логотипу */
+
+.spanBlue {
+   font-family: var(--fontFamily);
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 13.42px;
+   letter-spacing: 4%;
+
+   text-transform: uppercase;
+
+   color: var(--textColorPar);
+}
+
+/* Опис класу ссилок */
+
+.headerLink {
+   width: 93px;
+   height: 13px;
+
+   font-family: var(--fontFamily);
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 12.68px;
+   letter-spacing: 4%;
+
+   text-align: center;
+   text-decoration: none;
+
+   color: var(--link);
+}
+
+/* Опис дів контакту */
+
+.divContact {
+   width: 143px;
+   height: 30px;
+
+   border-radius: 92px;
+
+   background: var(--backgroundColorDiv);
+
+   margin-left: 30px;
+}
+
+/* Опис класу ссилки */
+
+.linkDivContact {
+   width: 73px;
+   height: 13px;
+
+   font-family: var(--fontFamily);
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 12.68px;
+   letter-spacing: 4%;
+
+   text-decoration: none;
+
+   color: var(--textColorParDiv);
+
+   margin-top: 8px;
+   margin-left: 35px;
+}
+
+/* Опис классу ссилки */
+
+.linkSv {
+   width: 20px;
+   height: 13px;
+
+   font-family: var(--fontFamily);
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 12.68px;
+   letter-spacing: 4%;
+
+   text-decoration: none;
+
+   color: var(--textColorPar);
+
+   margin-left: 30px;
+}
+
+/* Секція маркетинг */
+
+
+
+.sectionMarketing {
+   width: 1440px;
+   height: 751px; 
+
+   background-image: url(./img/foto_1.png);
+
+   background-repeat: no-repeat;
+
+   background-position-x: 767px;
+   background-position-y: 62px;
+
+   background-size: 662px 662px; 
+
+   background-color: var(--backgroundColor);
+}
+
+.divMarketing{
+   display: flex;
+}
+
+/* Заголовок маркетинг */
+
+.titleMarketing {
+   width: 975px;
+   height: 191px;
+
+   font-family: var(--fontFamily);
+   font-size: 72px;
+   font-weight: 700;
+   line-height: 74.9px;
+   letter-spacing: 3%;
+
+   color: var(--titleColor);
+
+   margin-top: 146px;
+   margin-left: 75px;
+}
+
+.spanTitle {
+   color: var(--titleColorSpan);
+}
