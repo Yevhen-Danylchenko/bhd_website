@@ -229,14 +229,22 @@
 
 /* Список маркетинг */
 
+.marketingDivUl {
+   justify-content: space-between;
+}
+
 .marketingUl {
    display: flex;
 
-   margin-left: -40px;
+   align-items: center;
+
+   /* margin-left: -40px; */
 }
 
 .liMarketing {
    list-style: none;
+
+   align-items: center;
 
    margin-right: 30px;
 }
@@ -244,8 +252,8 @@
 /* Див силок маркетинг */
 
 .divMarketingLink {
-   width: 190px;
-   height: 36px;
+   min-width: 190px;
+   height: 36px; 
 
    border-radius: 58.5px;
 
@@ -253,12 +261,14 @@
 
    text-align: center;
 
+   align-items: center;
+
    margin-top: 50px;
    margin-right: 30px;
 }
 
 .divMarketingLinkTwo {
-   width: 190px;
+   min-width: 190px;
    height: 36px;
 
    border: 1px solid var(--borderColor);
@@ -268,6 +278,8 @@
    background-color: var(--backgroundColorDivTwo);
 
    text-align: center;
+
+   align-items: center;
 
    margin-top: 50px;
 }
