@@ -237,6 +237,8 @@
 .marketingUl {
    display: flex;
 
+   list-style: none;
+
    align-items: center;
 
    /* margin-left: -40px; */
