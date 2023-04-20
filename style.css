@@ -385,7 +385,7 @@
    padding-right: 25px;
 } 
 
-/* Опис блоків дів сектору сервіс */
+/* Опис блоків дів секції сервіс */
 
 .servisesDiv {
    min-width: 249px;
@@ -414,7 +414,7 @@
    margin-left: 95px;
 }
 
-/* Опис заголовків в секторі сервіс */
+/* Опис заголовків в секції сервіс */
 
 .servisesTitleDiv {
    width: 215px;
@@ -456,7 +456,7 @@
    margin: 0;
 } 
 
-/* Опис параграфу сектора сервіс списку лі */
+/* Опис параграфу секції сервіс списку лі */
 
 .servisesPar {
    width: 248px;
@@ -478,7 +478,7 @@
 
 
 
-/* Опис діву силок списку сектора сервіс */
+/* Опис діву силок списку секції сервіс */
 
 .linkDivServises {
    width: 109px;
@@ -492,5 +492,27 @@
    margin-left: 140px;
 } 
 
-/* Опис силок сектору сервіс */
+/* Опис силок секції сервіс */
 
+.linkServices{
+   min-width: 109px;
+   height: 23px;
+
+   font-family: var(--fontFamily);
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 16.2px;
+   letter-spacing: 4.5%;
+
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   color: var(--linkTwo); 
+
+   padding: 1px 20px 4px 20px;
+}
+
+.linkServices:hover, .linkServices:focus{
+   color: var(--linkTwo);
+}
