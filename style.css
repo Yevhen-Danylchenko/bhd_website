@@ -345,7 +345,7 @@
 
 /* Секція сервіс */
 
-/* .servises {
+.servises {
    width: 1440px;
    
    margin: 0px auto;
@@ -365,11 +365,11 @@
    padding: 136px 516px 0 516px;
 
    margin: 0;
-} */
+} 
 
 /* Опис списків сервісів */
 
-/* .servisesUl {
+.servisesUl {
    display: flex;
 
    list-style: none;
@@ -377,24 +377,24 @@
    padding: 75px 185px 0 185px;
 
    margin: 0;
-} */
+} 
 
 /* Опис списку лі сервісів */
 
-/* .servisesLi {
+.servisesLi {
    padding-right: 25px;
-} */
+} 
 
 /* Опис блоків дів сектору сервіс */
 
-/* .servisesDiv {
+.servisesDiv {
    min-width: 249px;
    min-height: 392px;
-} */
+}
 
 /* Опис логотипів сервісу список лі */
 
-/* .servisesLogo {
+.servisesLogo {
    margin-top: 40px;
    margin-left: 106px;
 }
@@ -412,11 +412,11 @@
 .servisesLogoThree {
    margin-top: 30px;
    margin-left: 95px;
-} */
+}
 
 /* Опис заголовків в секторі сервіс */
 
-/* .servisesTitleDiv {
+.servisesTitleDiv {
    width: 215px;
    height: 22px;
 
@@ -454,11 +454,11 @@
    padding: 31px 17px 26px 17px;
 
    margin: 0;
-} */
+} 
 
 /* Опис параграфу сектора сервіс списку лі */
 
-/* .servisesPar {
+.servisesPar {
    width: 248px;
    height: 131px;
 
@@ -474,13 +474,13 @@
    padding-left: 1px;
 
    margin: 0;
-} */
+} 
 
 
 
 /* Опис діву силок списку сектора сервіс */
 
-/* .linkDivServises {
+.linkDivServises {
    width: 109px;
    height: 27px;
 
@@ -490,7 +490,7 @@
 
    margin-top: 45px;
    margin-left: 140px;
-} */
+} 
 
 /* Опис силок сектору сервіс */
 
