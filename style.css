@@ -269,10 +269,6 @@
    padding: 7px 20px;
 }
 
-
-
-
-
 /* Опис силок в списку дів маркетинг */
 
 .linkDivMarketing {
@@ -296,7 +292,7 @@
 
 .linkDivMarketingTwo {
    min-width: 143px;
-   /* height: 23px; */
+   height: 23px;
 
    font-family: var(--fontFamily);
    font-size: 16px;
