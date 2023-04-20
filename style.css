@@ -178,7 +178,7 @@
 
    background-color: var(--backgroundColor);
 
-   padding-top: 74px;
+   padding-top: 146px;
    margin: 0px auto;
 }
 
@@ -186,6 +186,7 @@
 .container{
    padding: 0 75px;
 }
+
 .titleMarketing {
    width: 975px;
 
@@ -196,6 +197,8 @@
    letter-spacing: 3%;
 
    color: var(--titleColor);
+
+   margin: 0;
 }
 
 .spanTitle {
@@ -215,7 +218,7 @@
 
    color: var(--textColorPar);
 
-   margin-top: -26px;
+   margin-top: 46px;
 }
 
 /* Список маркетинг */
@@ -244,11 +247,7 @@
    padding: 7px 20px;
 }
 
-.liMarketing:hover{
-   background-color: var(--backgroundColorDiv);
-}
-
-.liMarketing:focus{
+.liMarketing:hover, .liMarketing:focus{
    background-color: var(--backgroundColorDiv);
 }
 
@@ -271,16 +270,12 @@
    color: var(--linkThree);  
 }
 
-.linkDivMarketing:hover{
-   color: var(--linkTwo)
-}
-
-.linkDivMarketing:focus{
+.linkDivMarketing:hover, .linkDivMarketing:focus{
    color: var(--linkTwo)
 }
 
 /* Секція списку логотипів клієнтів */
-
+/* 
 .trustedClient {
    width: 1440px;
    height: 241px;
@@ -288,11 +283,11 @@
    background-color: var(--backgroundColorSection);
 
    margin: 0px auto;
-}
+} */
 
 /* Опис параграфа клієнтів */
 
-.parTrustedClient {
+/* .parTrustedClient {
    width: 191px;
    height: 25px;
 
@@ -306,19 +301,19 @@
 
    margin-top: 33px;
    margin-left: 625px;
-}
+} */
 
 /* Список логотипів клієнтів */
 
-.trustedClientUl {
+/* .trustedClientUl {
    display: flex;
 
    margin-left: -170px;
-}
+} */
 
 /* Позиція логотипів клієнтів */
 
-.trustedClientLi {
+/* .trustedClientLi {
 
    margin-top: 43px;
    margin-right: 47px;
@@ -346,11 +341,11 @@
 
 .trustedClientLiFive {
    margin-top: -10px;
-}
+} */
 
 /* Секція сервіс */
 
-.servises {
+/* .servises {
    width: 1440px;
    
    margin: 0px auto;
@@ -358,7 +353,6 @@
 
 .titleServises {
    min-width: 408px;
-   /* height: 62px; */
 
    font-family: var(--fontFamily);
    font-size: 60px;
@@ -371,11 +365,11 @@
    padding: 136px 516px 0 516px;
 
    margin: 0;
-}
+} */
 
 /* Опис списків сервісів */
 
-.servisesUl {
+/* .servisesUl {
    display: flex;
 
    list-style: none;
@@ -383,24 +377,24 @@
    padding: 75px 185px 0 185px;
 
    margin: 0;
-}
+} */
 
 /* Опис списку лі сервісів */
 
-.servisesLi {
+/* .servisesLi {
    padding-right: 25px;
-}
+} */
 
 /* Опис блоків дів сектору сервіс */
 
-.servisesDiv {
+/* .servisesDiv {
    min-width: 249px;
    min-height: 392px;
-}
+} */
 
 /* Опис логотипів сервісу список лі */
 
-.servisesLogo {
+/* .servisesLogo {
    margin-top: 40px;
    margin-left: 106px;
 }
@@ -418,11 +412,11 @@
 .servisesLogoThree {
    margin-top: 30px;
    margin-left: 95px;
-}
+} */
 
 /* Опис заголовків в секторі сервіс */
 
-.servisesTitleDiv {
+/* .servisesTitleDiv {
    width: 215px;
    height: 22px;
 
@@ -460,11 +454,11 @@
    padding: 31px 17px 26px 17px;
 
    margin: 0;
-}
+} */
 
 /* Опис параграфу сектора сервіс списку лі */
 
-.servisesPar {
+/* .servisesPar {
    width: 248px;
    height: 131px;
 
@@ -480,13 +474,13 @@
    padding-left: 1px;
 
    margin: 0;
-}
+} */
 
 
 
 /* Опис діву силок списку сектора сервіс */
 
-.linkDivServises {
+/* .linkDivServises {
    width: 109px;
    height: 27px;
 
@@ -496,7 +490,7 @@
 
    margin-top: 45px;
    margin-left: 140px;
-}
+} */
 
 /* Опис силок сектору сервіс */
 
