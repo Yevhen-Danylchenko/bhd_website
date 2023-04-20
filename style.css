@@ -181,9 +181,9 @@
    margin: 0px auto;
 }
 
-.divMarketing{
+/* .divMarketing{
    display: flex;
-} 
+}  */
 
 /* Заголовок маркетинг */
 
@@ -199,8 +199,8 @@
 
    color: var(--titleColor);
 
-   margin-top: 146px;
-   margin-left: 75px;
+   padding-top: 146px;
+   padding-left: 75px;
 }
 
 .spanTitle {
@@ -209,15 +209,14 @@
 
 /* Параграф маркетинг Блок дів */
 
-.divParMarketing {
-   width: 558px;
-   height: 208px;
-
-   margin-top: 327px;
-   margin-left: -970px;
+.divParMarketing {   
+   padding-top: 46px;
+   padding-left: 75px;
 }
 
 .parMarketing {
+   width: 558px;
+
    font-family: var(--fontFamily);
    font-size: 28px;
    font-weight: 400;
@@ -237,7 +236,7 @@
 .marketingUl {
    display: flex;
 
-   list-style: none;
+   /* list-style: none; */
 
    align-items: center;
 
@@ -245,16 +244,38 @@
 }
 
 .liMarketing {
-   list-style: none;
+   min-width: 190px;
+   height: 36px; 
+
+   border-radius: 58.5px;
+
+   background-color: var(--backgroundColorDiv);
+
+   text-align: center;
+
+   align-items: center;
+} 
+
+.liMarketingTwo{
+   min-width: 190px;
+   height: 36px;
+
+   border: 1px solid var(--borderColor);
+
+   border-radius: 58.5px;
+
+   background-color: var(--backgroundColorDivTwo);
+
+   text-align: center;
 
    align-items: center;
 
-   /* margin-right: 30px; */
+   margin-left: 30px;
 }
 
 /* Див силок маркетинг */
 
-.divMarketingLink {
+/* .divMarketingLink {
    min-width: 190px;
    height: 36px; 
 
@@ -268,7 +289,7 @@
 
    margin-top: 50px;
    /*margin-right: 30px; */
-}
+} */
 
 .divMarketingLinkTwo {
    min-width: 190px;
