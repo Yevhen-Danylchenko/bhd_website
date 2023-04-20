@@ -174,18 +174,20 @@
    background-position-x: 797px;
    background-position-y: 62px;
 
-   background-size: 662px; 
+   background-size: 652px; 
 
    background-color: var(--backgroundColor);
 
+   padding-top: 74px;
    margin: 0px auto;
 }
 
 /* Заголовок маркетинг */
-
+.container{
+   padding: 0 75px;
+}
 .titleMarketing {
    width: 975px;
-   height: 191px;
 
    font-family: var(--fontFamily);
    font-size: 72px;
@@ -194,21 +196,13 @@
    letter-spacing: 3%;
 
    color: var(--titleColor);
-
-   padding-top: 146px;
-   padding-left: 75px;
 }
 
 .spanTitle {
    color: var(--titleColorSpan);
 }
 
-/* Параграф маркетинг Блок дів */
-
-.divParMarketing {   
-   padding-top: 46px;
-   padding-left: 75px;
-}
+/* Параграф маркетинг */
 
 .parMarketing {
    width: 558px;
@@ -220,23 +214,18 @@
    letter-spacing: 3%;
 
    color: var(--textColorPar);
+
+   margin-top: -26px;
 }
 
 /* Список маркетинг */
-
-.marketingDivUl {
-   display: flex;
-   justify-content: space-between;
-}
 
 .marketingUl {
    display: flex;
 
    align-items: center;
-}
 
-.liMarketing:hover{
-   background-color: var(--backgroundColorDiv);
+   margin-top: 46px;
 }
 
 .liMarketing {
@@ -255,11 +244,15 @@
    padding: 7px 20px;
 }
 
-/* Опис силок в списку дів маркетинг */
-
-.linkDivMarketing:hover{
-   color: var(--linkTwo)
+.liMarketing:hover{
+   background-color: var(--backgroundColorDiv);
 }
+
+.liMarketing:focus{
+   background-color: var(--backgroundColorDiv);
+}
+
+/* Опис силок в списку */
 
 .linkDivMarketing {
    min-width: 143px;
@@ -275,9 +268,15 @@
    text-decoration: none;
    text-transform: uppercase;
 
-   color: var(--linkThree);
+   color: var(--linkThree);  
+}
 
-    
+.linkDivMarketing:hover{
+   color: var(--linkTwo)
+}
+
+.linkDivMarketing:focus{
+   color: var(--linkTwo)
 }
 
 /* Секція списку логотипів клієнтів */
@@ -358,8 +357,8 @@
 }
 
 .titleServises {
-   width: 408px;
-   height: 62px;
+   min-width: 408px;
+   /* height: 62px; */
 
    font-family: var(--fontFamily);
    font-size: 60px;
@@ -369,8 +368,9 @@
 
    color: var(--titleColorTwo);
 
-   margin-top: 144px;
-   margin-left: 516px;
+   padding: 136px 516px 0 516px;
+
+   margin: 0;
 }
 
 /* Опис списків сервісів */
@@ -379,28 +379,23 @@
    display: flex;
 
    list-style: none;
+
+   padding: 75px 185px 0 185px;
+
+   margin: 0;
 }
 
 /* Опис списку лі сервісів */
 
-.servisesLiOne {
-   margin-left: 185px;
-   margin-right: 25px;
-}
-
 .servisesLi {
-   margin-right: 25px;
-}
-
-.servisesLiTwo {
-   margin-right: 185px;
+   padding-right: 25px;
 }
 
 /* Опис блоків дів сектору сервіс */
 
 .servisesDiv {
-   width: 249px;
-   height: 392px;
+   min-width: 249px;
+   min-height: 392px;
 }
 
 /* Опис логотипів сервісу список лі */
@@ -441,63 +436,30 @@
 
    text-align: center;
 
-   margin-top: 26px;
-   margin-left: 17px;
 }
 
-.servisesTitleDivOne {
-   width: 215px;
-   height: 22px;
+.servisesTitleSocial{
+   padding: 26px 17px 26px 17px;
 
-   font-family: var(--fontFamily);
-   font-size: 24px;
-   font-weight: 500;
-   line-height: 24.97px;
-   letter-spacing: 3%;
-
-   color: var(--titleColorTwo);
-
-   text-align: center;
-   text-transform: uppercase;
-
-   margin-top: 21px;
-   margin-left: 17px;
+   margin: 0;
 }
 
-.servisesTitleDivTwo {
-   width: 215px;
-   height: 22px;
+.servisesTitleSeo {
+   padding: 21px 17px 26px 17px;
 
-   font-family: var(--fontFamily);
-   font-size: 24px;
-   font-weight: 500;
-   line-height: 24.97px;
-   letter-spacing: 3%;
-
-   color: var(--titleColorTwo);
-
-   text-align: center;
-
-   margin-top: 20px;
-   margin-left: 17px;
+   margin: 0;
 }
 
-.servisesTitleDivThree {
-   width: 216px;
-   height: 22px;
+.servisesTitleGoogle{
+   padding: 20px 17px 26px 17px;
 
-   font-family: var(--fontFamily);
-   font-size: 24px;
-   font-weight: 500;
-   line-height: 24.97px;
-   letter-spacing: 3%;
+   margin: 0;
+}
 
-   color: var(--titleColorTwo);
+.servisesDivContent{
+   padding: 31px 17px 26px 17px;
 
-   text-align: center;
-
-   margin-top: 26px;
-   margin-left: 17px;
+   margin: 0;
 }
 
 /* Опис параграфу сектора сервіс списку лі */
@@ -514,57 +476,13 @@
 
    color: var(--textColorParTwo);
 
-   margin-top: 26px;
-   margin-left: 1px;
+   padding-top: 26px;
+   padding-left: 1px;
+
+   margin: 0;
 }
 
-.servisesParOne {
-   width: 248px;
-   height: 131px;
 
-   font-family: var(--fontFamily);
-   font-size: 12px;
-   font-weight: 400;
-   line-height: 16.2px;
-   letter-spacing: 3%;
-
-   color: var(--textColorParTwo);
-
-   margin-top: 26px;
-   margin-left: 1px;
-}
-
-.servisesParTwo {
-   width: 244px;
-   height: 131px;
-
-   font-family: var(--fontFamily);
-   font-size: 12px;
-   font-weight: 400;
-   line-height: 16.2px;
-   letter-spacing: 3%;
-
-   color: var(--textColorParTwo);
-
-   margin-top: 26px;
-   margin-left: 1px;
-}
-
-.servisesParThree {
-   width: 249px;
-   height: 131px;
-
-   font-family: var(--fontFamily);
-   font-size: 12px;
-   font-weight: 400;
-   line-height: 16.2px;
-   letter-spacing: 3%;
-
-   color: var(--textColorParTwo);
-
-   margin-top: 26px;
-   margin-left: 1px;
-}
 
 /* Опис діву силок списку сектора сервіс */
 
