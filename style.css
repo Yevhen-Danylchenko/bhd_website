@@ -781,3 +781,38 @@
 .linkHands:hover, .linkHands:focus{
    color: var(--linkFor);
 }
+
+/* Секція о нас */
+
+.about{
+   width: 1188px;
+   height: 554px; 
+
+   background-image: url(./img/Group_158.png);
+
+   background-repeat: no-repeat;
+
+   background-position-x: -59px;
+   background-position-y: 98px;
+
+   background-size: 1188px 341px;
+
+   background-color: var(--backgroundColorDiv);
+
+   margin: 265px auto 0 auto;
+}
+
+/* Опис класу дів секції "о нас" */
+
+/* .aboutDiv{
+   width: 1070px;
+   height: 554px;
+
+   background-color: var(--backgroundColorDiv);
+
+   margin: 0 185px;
+} */
+
+/* .group{
+   padding-top: 98px;
+} */
