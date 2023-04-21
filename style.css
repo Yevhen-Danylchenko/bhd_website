@@ -5,6 +5,7 @@
    --link: #000;
    --linkTwo: #fff;
    --linkThree: #111;
+   --linkFor: #ece9e5;
    --titleColor: #000;
    --titleColorTwo: #111;
    --titleColorThree: #ece9e5;
@@ -17,6 +18,7 @@
    --backgroundColorDiv: #3C5EF0;
    --backgroundColorDivTwo: #e5e5e5;
    --backgroundColorSection: #111;
+   --backgroundColorLi: #111;
    --borderColor: #111;
    --borderColorTwo: #3c5ef0;
 }
@@ -390,6 +392,8 @@
 .servisesDiv {
    min-width: 249px;
    min-height: 392px;
+
+   border-bottom: 1px solid var(--borderColor);
 }
 
 /* Опис логотипів сервісу список лі */
@@ -625,4 +629,155 @@
    padding: 0 330px 0 330px;
 
    margin: 0;
+}
+
+/* Опис параграфу секції хендс */
+
+.handsPar{
+   min-width: 450px;
+   min-height: 77px;
+
+   font-family: var(--fontFamily);
+   font-style: normal;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 21px;
+   letter-spacing: 3%;
+
+   text-align: center;
+
+   color: var(--titleColorTwo);
+
+   padding: 20px 495px 0 495px; 
+
+   margin: 0;
+}
+
+/* Опис списку секції хендс */
+
+.handsUl{
+   display: flex;
+
+   /* padding-top: 38px;
+   padding-left: 295px; */
+
+   padding: 38px 295px;
+
+   margin: 0;
+}
+
+.handsUlTwo{
+   display: flex;
+
+   width: 192px;
+
+   margin: 0;
+}
+
+.handsLi{
+   width: 192px;
+   height: 40px;
+
+   border-bottom: 1px solid #111;
+}
+
+.li{
+   margin-right: 28px;
+}
+
+/* Опис заголовку списку лі */
+
+.handsTitleLi{
+   min-width: 135px;
+   min-height: 22px;
+
+   font-family: var(--fontFamily);
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 21px;
+   letter-spacing: 3%;
+
+   color: var(--titleColorTwo);
+
+   padding-bottom: 20px;
+
+   margin: 0;
+}
+
+/* Опис параграфу списку ли */
+
+.handsParLi{
+   min-width: 135px;
+   min-height: 22px;
+
+   font-family: var(--fontFamily);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 16.64px;
+   letter-spacing: 3%;
+
+   color: var(--titleColorTwo);
+
+   padding-top: 10px;
+   padding-bottom: 8px;
+
+   margin: 0;
+}
+
+/* Опис іконки списку лі */
+
+.rectangle{
+   margin-top: 9px;
+   margin-bottom: 7px;
+   margin-left: 33px;
+}
+
+/* Опис ссилок секції хендс */
+
+.handsUlLink{
+   display: flex;
+
+   padding: 200px 472px 0 800px;
+   
+   margin: 0;
+}
+
+.linkLi{
+   min-width: 168px;
+   min-height: 36px;
+
+   border: 1px solid #111;
+   border-radius: 58.5px;
+
+   text-align: center;
+
+   background-color: var(--backgroundColorDivTwo);
+
+   padding: 8px 13px 5px 12px;
+   margin-right: 22px;
+}
+
+.linkLi:hover, .linkLi:focus{
+   background-color: var(--backgroundColorLi);
+}
+
+.linkHands{
+   min-width: 143px;
+   height: 23px;
+
+   font-family: var(--fontFamily);
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 18.9px;
+   letter-spacing: 4.5%;
+
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   color: var(--linkThree);
+}
+
+.linkHands:hover, .linkHands:focus{
+   color: var(--linkFor);
 }
