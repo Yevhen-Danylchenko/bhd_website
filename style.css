@@ -816,3 +816,47 @@
 /* .group{
    padding-top: 98px;
 } */
+
+/* Секція кейс */
+
+/* .cases{
+   width: 1440px;
+
+   margin: 0 auto;
+}
+
+.casesUl{
+   display: flex;
+
+   list-style: none;
+
+   padding: 261px 1064px 0 185px;
+
+   margin: 0;
+}
+
+.casesLi{
+   padding-right: 797px;
+}
+
+/* Опис титлу кейс */
+
+/* .casesTitle{
+   min-width: 191px;
+   min-height: 52px;
+
+   font-family: var(--fontFamily);
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 51.96px;
+   letter-spacing: 86.6%;
+
+   color: var(--titleColorTwo);
+
+   margin: 0;
+} */
+
+/* Опис силки кейс */
+
+
+ 
