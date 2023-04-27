@@ -653,13 +653,17 @@
 
    margin-top: 20px;
 
-   margin: 0;
+   margin-left: 515px;
 }
 
 /* Опис дів контенту. */
 
 .handsContainer{
    display: flex;
+
+   margin-top: 38px;
+
+   margin-left: 295px;
 }
 
 /* Опис списку секції хендс */
@@ -745,7 +749,7 @@
 .handsUlLink{
    display: flex;
 
-   padding: 200px 472px 0 800px;
+   padding: 47px 472px 0 800px;
    
    margin: 0;
 }
