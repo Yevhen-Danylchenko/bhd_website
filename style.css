@@ -348,6 +348,12 @@
 /* Секція сервіс */
 
 .servises {
+   background-color: var(--backgroundColor);
+
+   padding-top: 136px;
+}
+
+.servicesContainer{
    width: 1440px;
    
    margin: 0px auto;
@@ -362,11 +368,11 @@
    line-height: 62.41px;
    letter-spacing: 3%;
 
+   text-align: center;
+
    color: var(--titleColorTwo);
 
-   padding: 136px 516px 0 516px;
-
-   margin: 0;
+   /* margin: 0; */
 } 
 
 /* Опис списків сервісів */
@@ -626,16 +632,13 @@
 
    color: var(--titleColorTwo);
 
-   padding: 0 330px 0 330px;
-
    margin: 0;
 }
 
 /* Опис параграфу секції хендс */
 
 .handsPar{
-   min-width: 450px;
-   min-height: 77px;
+   width: 450px;
 
    font-family: var(--fontFamily);
    font-style: normal;
@@ -648,20 +651,25 @@
 
    color: var(--titleColorTwo);
 
-   padding: 20px 495px 0 495px; 
+   margin-top: 20px;
 
    margin: 0;
+}
+
+/* Опис дів контенту. */
+
+.handsContainer{
+   display: flex;
 }
 
 /* Опис списку секції хендс */
 
 .handsUl{
-   display: flex;
 
    /* padding-top: 38px;
    padding-left: 295px; */
 
-   padding: 38px 295px;
+   margin-top: 38px;
 
    margin: 0;
 }
@@ -726,11 +734,11 @@
 
 /* Опис іконки списку лі */
 
-.rectangle{
+/* .rectangle{
    margin-top: 9px;
    margin-bottom: 7px;
    margin-left: 33px;
-}
+} */
 
 /* Опис ссилок секції хендс */
 
