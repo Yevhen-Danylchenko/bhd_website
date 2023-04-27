@@ -678,22 +678,12 @@
    margin: 0;
 }
 
-.handsUlTwo{
-   display: flex;
-
-   width: 192px;
-
-   margin: 0;
-}
-
 .handsLi{
    width: 192px;
    height: 40px;
 
    border-bottom: 1px solid #111;
-}
 
-.li{
    margin-right: 28px;
 }
 
@@ -735,14 +725,6 @@
 
    margin: 0;
 }
-
-/* Опис іконки списку лі */
-
-/* .rectangle{
-   margin-top: 9px;
-   margin-bottom: 7px;
-   margin-left: 33px;
-} */
 
 /* Опис ссилок секції хендс */
 
