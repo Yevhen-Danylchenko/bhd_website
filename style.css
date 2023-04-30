@@ -686,8 +686,8 @@
 /* Опис заголовку списку лі */
 
 .handsTitleLi{
-   min-width: 135px;
-   min-height: 22px;
+   width: 135px;
+   height: 22px;
 
    font-family: var(--fontFamily);
    font-size: 20px;
@@ -705,8 +705,8 @@
 /* Опис параграфу списку ли */
 
 .handsParLi{
-   min-width: 135px;
-   min-height: 22px;
+   width: 135px;
+   height: 22px;
 
    font-family: var(--fontFamily);
    font-size: 16px;
