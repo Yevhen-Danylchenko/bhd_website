@@ -398,8 +398,8 @@
 /* Опис блоків дів секції сервіс */
 
 .servisesDiv {
-   min-width: 249px;
-   min-height: 392px;
+   width: 249px;
+   height: 392px;
 
    border-bottom: 1px solid var(--borderColor);
 }
