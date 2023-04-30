@@ -360,7 +360,7 @@
 }
 
 .titleServises {
-   min-width: 408px;
+   width: 408px;
 
    font-family: var(--fontFamily);
    font-size: 60px;
@@ -372,7 +372,9 @@
 
    color: var(--titleColorTwo);
 
-   /* margin: 0; */
+   margin: 0 516px;
+
+    /* margin: 0; */
 } 
 
 /* Опис списків сервісів */
