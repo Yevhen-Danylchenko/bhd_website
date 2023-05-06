@@ -18,6 +18,7 @@
    --backgroundColorDiv: #3C5EF0;
    --backgroundColorDivTwo: #e5e5e5;
    --backgroundColorSection: #111;
+   --backgroundColorTwo: #3c5ef0;
    --backgroundColorLi: #111;
    --borderColor: #111;
    --borderColorTwo: #3c5ef0;
@@ -726,17 +727,24 @@
 
 /* Опис ссилок секції хендс */
 
+.handsLinkDiv{
+   width: 1440px;
+   height: 36px;
+
+   margin: 47px auto;
+}
+
 .handsUlLink{
    display: flex;
 
-   padding: 47px 472px 0 800px;
+   padding-left: 800px;
    
    margin: 0;
 }
 
 .linkLi{
-   min-width: 168px;
-   min-height: 36px;
+   width: 168px;
+   height: 36px;
 
    border: 1px solid #111;
    border-radius: 58.5px;
@@ -754,7 +762,7 @@
 }
 
 .linkHands{
-   min-width: 143px;
+   width: 143px;
    height: 23px;
 
    font-family: var(--fontFamily);
@@ -811,31 +819,39 @@
 
 /* Секція кейс */
 
-/* .cases{
+.cases{
    width: 1440px;
 
    margin: 0 auto;
 }
 
-.casesUl{
+/* Опис діву секції кейс */
+
+.casesDiv{
+   width: 1440px;
+
+   margin: 261px auto;
+}
+
+/* Опис діву титла та силки */
+
+.casesDivTitle{
+   width: 1069px;
+   height: 52px;
+
    display: flex;
+ 
+   margin-left: 185px;
 
-   list-style: none;
-
-   padding: 261px 1064px 0 185px;
-
-   margin: 0;
 }
 
-.casesLi{
-   padding-right: 797px;
-}
+
 
 /* Опис титлу кейс */
 
-/* .casesTitle{
-   min-width: 191px;
-   min-height: 52px;
+.casesTitle{
+   width: 191px;
+   height: 52px;
 
    font-family: var(--fontFamily);
    font-size: 60px;
@@ -844,11 +860,137 @@
    letter-spacing: 86.6%;
 
    color: var(--titleColorTwo);
+   text-align: left;
 
-   margin: 0;
-} */
+   margin-top: 0;
+   margin-right: 797px;
+   margin-bottom: 0;
+}
 
 /* Опис силки кейс */
 
+a{
+   text-decoration: none;
+}
 
+.casesLink{
+   width: 81px;
+   height: 27px;
+
+   font-family: var(--fontFamily);
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 27px;
+   letter-spacing: 4.5%;
+
+   text-align: right;
+  
+   color: var(--linkThree);
+
+   margin: 13px 0 0 0;
+}
+
+/* Опис діву списків */
+
+.casesDivUl{
+   width: 1069px;
+
+   display: flex;
+
+   margin: 36px auto;
+}
  
+/* Опис списків кейс */
+
+.casesUl{
+   width: 520px;
+
+   list-style: none;
+   
+   margin-right: 30px;
+   
+}
+
+.casesLi{
+   border-top: 1px solid var(--borderColor);
+
+   padding-top: 32px;
+   padding-bottom: 33px;
+}
+
+.casesLiTwo{
+   border-bottom: 1px solid var(--borderColor);
+}
+
+/* Опис титлу та параграфів списку кейс */
+
+.casesTitleLi{
+   width: 520px;
+   height: 80px;
+
+   font-family: var(--fontFamily);
+   font-size: 36px;
+   font-weight: 800;
+   line-height: 44.1px;
+
+   padding-bottom: 20px;
+}
+
+.casesPar{
+   width: 520px;
+   height: 119px;
+
+   font-family: var(--fontFamily);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 3%;
+
+   text-align: left;
+
+   padding-bottom: 17px;
+}
+
+/* Опис силки списку кейс */
+
+.casesLinkLi{
+   width: 100px;
+   height: 27px;
+
+   font-family: var(--fontFamily);
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 27px;
+
+   text-align: right;   
+
+   color: var(--linkThree);
+
+   padding-bottom: 33px;
+}
+
+/* Секція діджитал */
+
+/* .digital{
+   width: 1440px;
+   height: 688px;
+
+   background-color: var(--backgroundColorTwo);
+
+   background-image: url(./img/Marcus_1.png);
+
+   background-size: 206px;
+   background-repeat: no-repeat;
+   background-position: 617px 80px; 
+
+   background-image: url(./img/Marcus_2.png); 
+   
+
+   background-size: 194px;
+   background-repeat: no-repeat;
+
+   background-position: 623px 86px;
+
+
+   margin: 0 auto;
+} */
