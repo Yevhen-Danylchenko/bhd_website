@@ -373,9 +373,7 @@
 
    color: var(--titleColorTwo);
 
-   margin: 0 516px;
-
-    /* margin: 0; */
+   margin: 0 auto; 
 } 
 
 /* Опис списків сервісів */
@@ -508,7 +506,7 @@
 /* Опис силок секції сервіс */
 
 .linkServices{
-   min-width: 109px;
+   width: 109px;
    height: 23px;
 
    font-family: var(--fontFamily);
