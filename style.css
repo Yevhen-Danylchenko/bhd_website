@@ -2,26 +2,16 @@
 
 :root{
    --fontFamily:'Poppins';
-   --link: #000;
-   --linkTwo: #fff;
-   --linkThree: #111;
-   --linkFor: #ece9e5;
-   --titleColor: #000;
-   --titleColorTwo: #111;
-   --titleColorThree: #ece9e5;
+   --link: #111;
+   --linkHover: #ece9e5;
+   --titleColor: #111;
    --titleColorSpan: #3c5ef0;
-   --textColorPar: #000;
-   --textColorParTwo: #111;
-   --textColorParDiv: #ece9e5;
-   --parColorText: #fff;
+   --parColorText: #ece9e5;
    --backgroundColor: #e5e5e5;
-   --backgroundColorDiv: #3C5EF0;
-   --backgroundColorDivTwo: #e5e5e5;
+   --backgroundColorDiv: #3c5ef0;
    --backgroundColorSection: #111;
-   --backgroundColorTwo: #3c5ef0;
    --backgroundColorLi: #111;
-   --borderColor: #111;
-   --borderColorTwo: #3c5ef0;
+   --borderColor: #3c5ef0;
 }
 
 .body {
@@ -82,7 +72,7 @@
 
    text-transform: uppercase;
 
-   color: var(--textColorPar);
+   color: var(--titleColor);
 }
 
 /* Опис параграфа Логотипу */
@@ -96,7 +86,7 @@
 
    text-transform: uppercase;
 
-   color: var(--textColorPar);
+   color: var(--titleColor);
 }
 
 /* Опис класу ссилок */
@@ -141,7 +131,7 @@
 
    text-decoration: none;
 
-   color: var(--textColorParDiv);
+   color: var(--parColorText);
 
 }
 
@@ -159,7 +149,7 @@
 
    text-decoration: none;
 
-   color: var(--textColorPar);
+   color: var(--titleColor);
 
    margin-left: 30px;
 }
@@ -219,7 +209,7 @@
    line-height: 29.13px;
    letter-spacing: 3%;
 
-   color: var(--textColorPar);
+   color: var(--titleColor);
 
    margin-top: 46px;
 }
@@ -238,7 +228,7 @@
    min-width: 190px;
    height: 36px; 
 
-   border: 1px solid var(--borderColor);
+   border: 1px solid var(--backgroundColorSection);
 
    border-radius: 58.5px;
 
@@ -270,11 +260,11 @@
    text-decoration: none;
    text-transform: uppercase;
 
-   color: var(--linkThree);  
+   color: var(--link);  
 }
 
 .linkDivMarketing:hover, .linkDivMarketing:focus{
-   color: var(--linkTwo)
+   color: var(--linkHover)
 }
 
 /* Секція списку логотипів клієнтів */
@@ -371,7 +361,7 @@
 
    text-align: center;
 
-   color: var(--titleColorTwo);
+   color: var(--titleColor);
 
    margin: 0 auto; 
 } 
@@ -400,7 +390,7 @@
    width: 249px;
    height: 392px;
 
-   border-bottom: 1px solid var(--borderColor);
+   border-bottom: 1px solid var(--backgroundColorSection);
 }
 
 /* Опис логотипів сервісу список лі */
@@ -437,7 +427,7 @@
    line-height: 24.97px;
    letter-spacing: 3%;
 
-   color: var(--titleColorTwo);
+   color: var(--titleColor);
 
    text-align: center;
 
@@ -479,7 +469,7 @@
    line-height: 16.2px;
    letter-spacing: 3%;
 
-   color: var(--textColorParTwo);
+   color: var(--titleColor);
 
    padding-top: 26px;
    padding-left: 1px;
@@ -519,13 +509,13 @@
    text-decoration: none;
    text-transform: uppercase;
 
-   color: var(--linkTwo); 
+   color: var(--linkHover); 
 
    padding: 1px 20px 4px 20px;
 }
 
 .linkServices:hover, .linkServices:focus{
-   color: var(--linkTwo);
+   color: var(--linkHover);
 }
 
 /* Опис секції старс */
@@ -541,6 +531,12 @@
    margin: 273px auto 0 auto;
 }
 
+.starsDivOne{
+   width: 1440px;
+
+   padding: 153px 225px 0 775px;
+}
+
 .starsTitle{
    font-family: var(--fontFamily);
    font-size: 53px;
@@ -548,15 +544,14 @@
    line-height: 55.13px;
    letter-spacing: 3%;
 
-   color: var(--titleColorThree);
-
-   padding: 153px 225px 34px 775px;
+   color: var(--parColorText);
 
    margin: 0;
 }
 
 .starsPar{
-   min-width: 480px;
+   width: 480px;
+   height: 77px;
 
    font-family: var(--fontFamily);
    font-size: 22px;
@@ -564,18 +559,18 @@
    line-height: 22.89px;
    letter-spacing: 3%;
 
-   color: var(--titleColorThree);
+   color: var(--parColorText);
 
-   padding: 0 185px 36px 775px;
+   padding-top: 34px;
 
    margin: 0;
 }
 
 .starsDiv{
-   min-width: 168px;
-   min-height: 36px;
+   width: 168px;
+   height: 36px;
 
-   border: 1px solid var(--borderColorTwo);
+   border: 1px solid var(--borderColor);
    border-radius: 58.5px;
 
    text-align: center;
@@ -583,11 +578,11 @@
    background-color: var(--backgroundColorDiv);
 
    padding: 8px 13px 5px 12px;
-   margin: 0 497px 243px 775px;
+   margin-top: 56px;
 }
 
 .linkStars{
-   min-width: 143px;
+   width: 143px;
    height: 23px;
 
    font-family: var(--fontFamily);
@@ -600,11 +595,11 @@
    text-decoration: none;
    text-transform: uppercase;
 
-   color: var(--linkTwo);   
+   color: var(--linkHover);   
 }
 
 .linkStars:hover, .LinkStars:focus {
-   color: var(--linkTwo);
+   color: var(--linkHover);
 }
 
 /* Опис секції хендс */
@@ -631,7 +626,7 @@
 
    text-align: center;
 
-   color: var(--titleColorTwo);
+   color: var(--titleColor);
 
    margin: 0;
 }
@@ -650,7 +645,7 @@
 
    text-align: center;
 
-   color: var(--titleColorTwo);
+   color: var(--titleColor);
 
    margin-top: 20px;
 
@@ -696,7 +691,7 @@
    line-height: 21px;
    letter-spacing: 3%;
 
-   color: var(--titleColorTwo);
+   color: var(--titleColor);
 
    padding-bottom: 20px;
 
@@ -715,7 +710,7 @@
    line-height: 16.64px;
    letter-spacing: 3%;
 
-   color: var(--titleColorTwo);
+   color: var(--titleColor);
 
    padding-top: 10px;
    padding-bottom: 8px;
@@ -749,7 +744,7 @@
 
    text-align: center;
 
-   background-color: var(--backgroundColorDivTwo);
+   background-color: var(--backgroundColor);
 
    padding: 8px 13px 5px 12px;
    margin-right: 22px;
@@ -773,11 +768,11 @@
    text-decoration: none;
    text-transform: uppercase;
 
-   color: var(--linkThree);
+   color: var(--link);
 }
 
 .linkHands:hover, .linkHands:focus{
-   color: var(--linkFor);
+   color: var(--linkHover);
 }
 
 /* Секція о нас */
@@ -857,7 +852,7 @@
    line-height: 51.96px;
    letter-spacing: 86.6%;
 
-   color: var(--titleColorTwo);
+   color: var(--titleColor);
    text-align: left;
 
    margin-top: 0;
@@ -883,7 +878,7 @@ a{
 
    text-align: right;
   
-   color: var(--linkThree);
+   color: var(--link);
 
    margin: 13px 0 0 0;
 }
@@ -910,14 +905,14 @@ a{
 }
 
 .casesLi{
-   border-top: 1px solid var(--borderColor);
+   border-top: 1px solid var(--backgroundColorSection);
 
    padding-top: 32px;
    padding-bottom: 33px;
 }
 
 .casesLiTwo{
-   border-bottom: 1px solid var(--borderColor);
+   border-bottom: 1px solid var(--backgroundColorSection);
 }
 
 /* Опис титлу та параграфів списку кейс */
@@ -962,7 +957,7 @@ a{
 
    text-align: right;   
 
-   color: var(--linkThree);
+   color: var(--link);
 
    padding-bottom: 33px;
 }
