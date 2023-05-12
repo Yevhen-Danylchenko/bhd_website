@@ -2,21 +2,16 @@
 
 :root{
    --fontFamily:'Poppins';
-   --link: #000;
-   --linkTwo: #fff;
-   --linkThree: #111;
-   --titleColor: #000;
-   --titleColorTwo: #111;
+   --link: #111;
+   --linkHover: #ece9e5;
+   --titleColor: #111;
    --titleColorSpan: #3c5ef0;
-   --textColorPar: #000;
-   --textColorParTwo: #111;
-   --textColorParDiv: #ece9e5;
-   --parColorText: #fff;
+   --parColorText: #ece9e5;
    --backgroundColor: #e5e5e5;
-   --backgroundColorDiv: #3C5EF0;
-   --backgroundColorDivTwo: #e5e5e5;
+   --backgroundColorDiv: #3c5ef0;
    --backgroundColorSection: #111;
-   --borderColor: #111;
+   --backgroundColorLi: #111;
+   --borderColor: #3c5ef0;
 }
 
 .body {
@@ -77,7 +72,7 @@
 
    text-transform: uppercase;
 
-   color: var(--textColorPar);
+   color: var(--titleColor);
 }
 
 /* Опис параграфа Логотипу */
@@ -91,7 +86,7 @@
 
    text-transform: uppercase;
 
-   color: var(--textColorPar);
+   color: var(--titleColor);
 }
 
 /* Опис класу ссилок */
@@ -136,7 +131,7 @@
 
    text-decoration: none;
 
-   color: var(--textColorParDiv);
+   color: var(--parColorText);
 
 }
 
@@ -154,14 +149,12 @@
 
    text-decoration: none;
 
-   color: var(--textColorPar);
+   color: var(--titleColor);
 
    margin-left: 30px;
 }
 
 /* Секція маркетинг */
-
-
 
 .sectionMarketing {
    width: 1440px;
@@ -216,7 +209,7 @@
    line-height: 29.13px;
    letter-spacing: 3%;
 
-   color: var(--textColorPar);
+   color: var(--titleColor);
 
    margin-top: 46px;
 }
@@ -235,7 +228,7 @@
    min-width: 190px;
    height: 36px; 
 
-   border: 1px solid var(--borderColor);
+   border: 1px solid var(--backgroundColorSection);
 
    border-radius: 58.5px;
 
@@ -267,11 +260,11 @@
    text-decoration: none;
    text-transform: uppercase;
 
-   color: var(--linkThree);  
+   color: var(--link);  
 }
 
 .linkDivMarketing:hover, .linkDivMarketing:focus{
-   color: var(--linkTwo)
+   color: var(--linkHover)
 }
 
 /* Секція списку логотипів клієнтів */
@@ -345,14 +338,20 @@
 
 /* Секція сервіс */
 
-/* .servises {
+.servises {
+   background-color: var(--backgroundColor);
+
+   padding-top: 136px;
+}
+
+.servicesContainer{
    width: 1440px;
    
    margin: 0px auto;
 }
 
 .titleServises {
-   min-width: 408px;
+   width: 408px;
 
    font-family: var(--fontFamily);
    font-size: 60px;
@@ -360,16 +359,16 @@
    line-height: 62.41px;
    letter-spacing: 3%;
 
-   color: var(--titleColorTwo);
+   text-align: center;
 
-   padding: 136px 516px 0 516px;
+   color: var(--titleColor);
 
-   margin: 0;
-} */
+   margin: 0 auto; 
+} 
 
 /* Опис списків сервісів */
 
-/* .servisesUl {
+.servisesUl {
    display: flex;
 
    list-style: none;
@@ -377,24 +376,26 @@
    padding: 75px 185px 0 185px;
 
    margin: 0;
-} */
+} 
 
 /* Опис списку лі сервісів */
 
-/* .servisesLi {
+.servisesLi {
    padding-right: 25px;
-} */
+} 
 
-/* Опис блоків дів сектору сервіс */
+/* Опис блоків дів секції сервіс */
 
-/* .servisesDiv {
-   min-width: 249px;
-   min-height: 392px;
-} */
+.servisesDiv {
+   width: 249px;
+   height: 392px;
+
+   border-bottom: 1px solid var(--backgroundColorSection);
+}
 
 /* Опис логотипів сервісу список лі */
 
-/* .servisesLogo {
+.servisesLogo {
    margin-top: 40px;
    margin-left: 106px;
 }
@@ -412,11 +413,11 @@
 .servisesLogoThree {
    margin-top: 30px;
    margin-left: 95px;
-} */
+}
 
-/* Опис заголовків в секторі сервіс */
+/* Опис заголовків в секції сервіс */
 
-/* .servisesTitleDiv {
+.servisesTitleDiv {
    width: 215px;
    height: 22px;
 
@@ -426,7 +427,7 @@
    line-height: 24.97px;
    letter-spacing: 3%;
 
-   color: var(--titleColorTwo);
+   color: var(--titleColor);
 
    text-align: center;
 
@@ -454,11 +455,11 @@
    padding: 31px 17px 26px 17px;
 
    margin: 0;
-} */
+} 
 
-/* Опис параграфу сектора сервіс списку лі */
+/* Опис параграфу секції сервіс списку лі */
 
-/* .servisesPar {
+.servisesPar {
    width: 248px;
    height: 131px;
 
@@ -468,19 +469,19 @@
    line-height: 16.2px;
    letter-spacing: 3%;
 
-   color: var(--textColorParTwo);
+   color: var(--titleColor);
 
    padding-top: 26px;
    padding-left: 1px;
 
    margin: 0;
-} */
+} 
 
 
 
-/* Опис діву силок списку сектора сервіс */
+/* Опис діву силок списку секції сервіс */
 
-/* .linkDivServises {
+.linkDivServises {
    width: 109px;
    height: 27px;
 
@@ -490,7 +491,502 @@
 
    margin-top: 45px;
    margin-left: 140px;
+} 
+
+/* Опис силок секції сервіс */
+
+.linkServices{
+   width: 109px;
+   height: 23px;
+
+   font-family: var(--fontFamily);
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 16.2px;
+   letter-spacing: 4.5%;
+
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   color: var(--linkHover); 
+
+   padding: 1px 20px 4px 20px;
+}
+
+.linkServices:hover, .linkServices:focus{
+   color: var(--linkHover);
+}
+
+/* Опис секції старс */
+
+.stars{
+   width: 1440px;
+   height: 681px; 
+
+   background-image: url(./img/Frame_13.png);
+
+   background-repeat: no-repeat;
+
+   margin: 273px auto 0 auto;
+}
+
+.starsDivOne{
+   width: 1440px;
+
+   padding: 153px 225px 0 775px;
+}
+
+.starsTitle{
+   font-family: var(--fontFamily);
+   font-size: 53px;
+   font-weight: 700;
+   line-height: 55.13px;
+   letter-spacing: 3%;
+
+   color: var(--parColorText);
+
+   margin: 0;
+}
+
+.starsPar{
+   width: 480px;
+   height: 77px;
+
+   font-family: var(--fontFamily);
+   font-size: 22px;
+   font-weight: 300;
+   line-height: 22.89px;
+   letter-spacing: 3%;
+
+   color: var(--parColorText);
+
+   padding-top: 34px;
+
+   margin: 0;
+}
+
+.starsDiv{
+   width: 168px;
+   height: 36px;
+
+   border: 1px solid var(--borderColor);
+   border-radius: 58.5px;
+
+   text-align: center;
+
+   background-color: var(--backgroundColorDiv);
+
+   padding: 8px 13px 5px 12px;
+   margin-top: 56px;
+}
+
+.linkStars{
+   width: 143px;
+   height: 23px;
+
+   font-family: var(--fontFamily);
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 18.9px;
+   letter-spacing: 4.5%;
+
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   color: var(--linkHover);   
+}
+
+.linkStars:hover, .LinkStars:focus {
+   color: var(--linkHover);
+}
+
+/* Опис секції хендс */
+
+.hands{
+   width: 1440px;
+   height: 572.32px; 
+
+   background-image: url(./img/Group_92.png);
+
+   background-repeat: no-repeat;
+
+   margin: 161px auto 0 auto;
+}
+
+/* Опис титлу */
+
+.handsTitle{
+   font-family: var(--fontFamily);
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 62.41px;
+   letter-spacing: 3%;
+
+   text-align: center;
+
+   color: var(--titleColor);
+
+   margin: 0;
+}
+
+/* Опис параграфу секції хендс */
+
+.handsPar{
+   width: 450px;
+
+   font-family: var(--fontFamily);
+   font-style: normal;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 21px;
+   letter-spacing: 3%;
+
+   text-align: center;
+
+   color: var(--titleColor);
+
+   margin-top: 20px;
+
+   margin-left: 515px;
+}
+
+/* Опис дів контенту. */
+
+.handsContainer{
+   display: flex;
+
+   margin-top: 38px;
+
+   margin-left: 295px;
+}
+
+/* Опис списку секції хендс */
+
+.handsUl{
+   margin-top: 38px;
+
+   margin: 0;
+}
+
+.handsLi{
+   width: 192px;
+   height: 40px;
+
+   border-bottom: 1px solid #111;
+
+   margin-right: 28px;
+}
+
+/* Опис заголовку списку лі */
+
+.handsTitleLi{
+   width: 135px;
+   height: 22px;
+
+   font-family: var(--fontFamily);
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 21px;
+   letter-spacing: 3%;
+
+   color: var(--titleColor);
+
+   padding-bottom: 20px;
+
+   margin: 0;
+}
+
+/* Опис параграфу списку ли */
+
+.handsParLi{
+   width: 135px;
+   height: 22px;
+
+   font-family: var(--fontFamily);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 16.64px;
+   letter-spacing: 3%;
+
+   color: var(--titleColor);
+
+   padding-top: 10px;
+   padding-bottom: 8px;
+
+   margin: 0;
+}
+
+/* Опис ссилок секції хендс */
+
+.handsLinkDiv{
+   width: 1440px;
+   height: 36px;
+
+   margin: 47px auto;
+}
+
+.handsUlLink{
+   display: flex;
+
+   padding-left: 800px;
+   
+   margin: 0;
+}
+
+.linkLi{
+   width: 168px;
+   height: 36px;
+
+   border: 1px solid #111;
+   border-radius: 58.5px;
+
+   text-align: center;
+
+   background-color: var(--backgroundColor);
+
+   padding: 8px 13px 5px 12px;
+   margin-right: 22px;
+}
+
+.linkLi:hover, .linkLi:focus{
+   background-color: var(--backgroundColorLi);
+}
+
+.linkHands{
+   width: 143px;
+   height: 23px;
+
+   font-family: var(--fontFamily);
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 18.9px;
+   letter-spacing: 4.5%;
+
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   color: var(--link);
+}
+
+.linkHands:hover, .linkHands:focus{
+   color: var(--linkHover);
+}
+
+/* Секція о нас */
+
+/* .about{
+   width: 1188px;
+   height: 554px; 
+
+   background-image: url(./img/Group_158.png);
+
+   background-repeat: no-repeat;
+
+   background-position-x: -59px;
+   background-position-y: 98px;
+
+   background-size: 1188px 341px;
+
+   background-color: var(--backgroundColorDiv);
+
+   margin: 265px auto 0 auto;
 } */
 
-/* Опис силок сектору сервіс */
+/* Опис класу дів секції "о нас" */
+
+/* .aboutDiv{
+   width: 1070px;
+   height: 554px;
+
+   background-color: var(--backgroundColorDiv);
+
+   margin: 0 185px;
+} */
+
+/* .group{
+   padding-top: 98px;
+} */
+
+/* Секція кейс */
+
+.cases{
+   width: 1440px;
+
+   margin: 0 auto;
+}
+
+/* Опис діву секції кейс */
+
+.casesDiv{
+   width: 1440px;
+
+   margin: 261px auto;
+}
+
+/* Опис діву титла та силки */
+
+.casesDivTitle{
+   width: 1069px;
+   height: 52px;
+
+   display: flex;
+ 
+   margin-left: 185px;
+
+}
+
+
+
+/* Опис титлу кейс */
+
+.casesTitle{
+   width: 191px;
+   height: 52px;
+
+   font-family: var(--fontFamily);
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 51.96px;
+   letter-spacing: 86.6%;
+
+   color: var(--titleColor);
+   text-align: left;
+
+   margin-top: 0;
+   margin-right: 797px;
+   margin-bottom: 0;
+}
+
+/* Опис силки кейс */
+
+a{
+   text-decoration: none;
+}
+
+.casesLink{
+   width: 81px;
+   height: 27px;
+
+   font-family: var(--fontFamily);
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 27px;
+   letter-spacing: 4.5%;
+
+   text-align: right;
+  
+   color: var(--link);
+
+   margin: 13px 0 0 0;
+}
+
+/* Опис діву списків */
+
+.casesDivUl{
+   width: 1069px;
+
+   display: flex;
+
+   margin: 36px auto;
+}
+ 
+/* Опис списків кейс */
+
+.casesUl{
+   width: 520px;
+
+   list-style: none;
+   
+   margin-right: 30px;
+   
+}
+
+.casesLi{
+   border-top: 1px solid var(--backgroundColorSection);
+
+   padding-top: 32px;
+   padding-bottom: 33px;
+}
+
+.casesLiTwo{
+   border-bottom: 1px solid var(--backgroundColorSection);
+}
+
+/* Опис титлу та параграфів списку кейс */
+
+.casesTitleLi{
+   width: 520px;
+   height: 80px;
+
+   font-family: var(--fontFamily);
+   font-size: 36px;
+   font-weight: 800;
+   line-height: 44.1px;
+
+   padding-bottom: 20px;
+}
+
+.casesPar{
+   width: 520px;
+   height: 119px;
+
+   font-family: var(--fontFamily);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 3%;
+
+   text-align: left;
+
+   padding-bottom: 17px;
+}
+
+/* Опис силки списку кейс */
+
+.casesLinkLi{
+   width: 100px;
+   height: 27px;
+
+   font-family: var(--fontFamily);
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 27px;
+
+   text-align: right;   
+
+   color: var(--link);
+
+   padding-bottom: 33px;
+}
+
+/* Секція діджитал */
+
+/* .digital{
+   width: 1440px;
+   height: 688px;
+
+   background-color: var(--backgroundColorTwo);
+
+   background-image: url(./img/Marcus_1.png);
+
+   background-size: 206px;
+   background-repeat: no-repeat;
+   background-position: 617px 80px; 
+
+   background-image: url(./img/Marcus_2.png); 
+   
+
+   background-size: 194px;
+   background-repeat: no-repeat;
+
+   background-position: 623px 86px;
+
+
+   margin: 0 auto;
+} */
+
+/* Секція питання */
 
